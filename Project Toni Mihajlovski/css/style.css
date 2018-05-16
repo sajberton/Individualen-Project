@@ -1,0 +1,202 @@
+body,html{
+    background-color: rgb(26, 201, 26);
+    background-image:url("../pictures/milky-way-2695569_960_720.jpg");
+    color: wheat;
+    height: 100%;
+    padding: 0px auto;
+    margin: 0px auto;
+}
+.tableDiv{
+    border: 1px dashed #ffffff;
+    float:left;
+    width: 550px;
+    height: 550px;
+}
+.message{
+    float:left;
+    width: 450px;
+    height: 150px; /* same as line-height: 150px; */
+    line-height: 150px; /* <-- this is what you must define for  vertical-align: middle; */
+    vertical-align: middle;
+    text-align: center;
+    font-size: 20px;
+    outline: none;
+    color: white;
+}
+.box{
+    box-sizing: border-box;
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+}
+.roll{
+    border: 2px dashed #59fa81;
+    float:right;
+    width: 150px;
+    height: 150px; /* same as line-height: 150px; */
+    line-height: 150px; /* <-- this is what you must define for  vertical-align: middle; */
+    vertical-align: middle;
+    text-align: center;
+    font-size: 150px;
+    outline: none;
+}
+::selection {
+   
+    color: none; /* if you hold click and select item */
+    background: none; /* if you hold click and select item */
+}
+.green{
+    box-sizing: border-box;
+    border: 4px dashed #085e00;
+    border-radius: 50%;
+    width: 100%;
+    height:100%;
+    background-color: #59fa81;
+    transition:-webkit-transform 2s, color 2s, background 2s;
+}
+
+.green:hover{
+	transform: rotate(360deg);
+    color:black;
+    background:#00dd93;
+}
+
+.red{
+    box-sizing: border-box;   
+    border: 4px dashed #6b0000;
+    border-radius: 50%;
+    width: 100%;
+    height:100%;
+    background-color: #ff1313;
+    transition:-webkit-transform 2s, color 2s, background 2s;
+}
+
+.red:hover{
+	transform: rotate(360deg);
+    color:black;
+    background:#00dd93;
+}
+
+.yellow{
+    align-items: center;   
+    box-sizing: border-box;
+    border: 4px dashed #8d8400;
+    border-radius: 50%;
+    width: 100%;
+    height:100%;
+    background: hsl(66, 98%, 54%);
+    transition:-webkit-transform 2s, color 2s, background 2s;
+}
+
+.yellow:hover{
+	transform: rotate(360deg);
+    color:black;
+    background:#00dd93;
+}
+.blue{
+    box-sizing: border-box;
+    border: 4px dashed #00406b;
+    border-radius: 50%;
+    width: 100%;
+    height:100%;
+    background-color: #15b5ff;
+    transition:-webkit-transform 2s, color 2s, background 2s;
+}
+.blue:hover{
+	transform: rotate(360deg);
+    color:black;
+    background:#00dd93;
+}
+.move, .center{
+    box-sizing: border-box;
+    border: 1px dashed #fff1f1;
+    background-color:black;
+}
+
+.home{
+    border: 1px dashed #d8d8d8;
+}
+.roll, .green { cursor: pointer; }
+
+.home-green{
+    background-color:  #59fa81;;
+}
+.home-yellow{
+    background-color: hsl(66, 98%, 54%);;
+}
+.home-blue{
+    background-color: #15b5ff;
+}
+.home-red{
+    background-color: #ff1313;
+}
+
+#startPage{
+    height: auto;
+    min-height: 100%; 
+    width: 100%;
+    display: block; 
+    background-color:white; 
+    position: absolute;
+    background-image: url("../pictures/wood-metallic-texture-background-rustic-banner-blue-tones-51204566.jpg");
+   
+}
+#board{
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+.startButtton{
+    height: 50px;
+    width: 250px;
+    display: block;
+    margin: 15px auto;
+    font-family: 'Acme', sans-serif;
+    text-shadow: 5px 5px 5px;
+    border-radius: 15px;
+    box-shadow:  5px 5px 5px; 
+}
+#greenButton{
+    
+    background-color:  #59fa81;        
+}
+
+#blueButton{
+    
+    background-color: #15b5ff;
+   
+}
+#redButton{
+  
+    background-color:   #ff1313;    
+}
+#yellowButton{
+   
+    background-color:   hsl(66, 98%, 54%);   
+}
+#start{
+    background-color: black;
+    color: #d8d8d8;
+    font-size: 25px;
+    text-shadow: none;
+}
+
+#start:hover{
+    background-color: #c21a3e;
+}
+
+p {
+	color: #8f0606;
+	font-family: 'Acme', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+.startButtton:hover {
+    color:black;
+    background-color:#00dd93;
+}
+
+
+
+
